@@ -1,0 +1,77 @@
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App {
+  align-items: center;
+  justify-content: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#searchLabel {
+  font-weight: bold;
+}
+
+#searchInput {
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  padding: 8px;
+}
+
+.zipcode {
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+  margin: auto;
+}
+.citySearch {
+  border-radius: 10%;
+  width:300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.zipCodeContainer {
+  border-radius: 10%;
+  width:400px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.noResults {
+  width:300px;
+  margin: auto;
+}
+
+.cityContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:300px;
+  border-radius: 2%;
+  border: 0.1px solid #CCC;
+  overflow: hidden;
+
+  display:flexbox;
+}
+
+.cityName {
+  padding: 0px 15px 0px 15px;
+  background-color: #CCC;
+}
+
+.cityDetails {
+  padding-top: 10px;
+}
